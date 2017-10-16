@@ -3,9 +3,8 @@
 @include generateColors("black", $default-button-color);
 
 /* Colors by Google Meterial Design (C) */
-@include generateColors("red2", #F44336);
-@include generateColors("red", #D50000);
-@include generateColors("red3", #B71C1C);
+@include generateColors("red", #CC2127);
+@include generateColors("red2", #B71C1C);
 @include generateColors("pink", #E91E63);
 @include generateColors("purple", #9C27B0);
 @include generateColors("deepPurple", #673AB7);

@@ -4986,34 +4986,8 @@ body {
 }
 
 /* Colors by Google Meterial Design (C) */
-.red2 {
-  background: #F44336 !important;
-  color: #fff !important;
-}
-
-.red2 svg {
-  fill: #fff !important;
-}
-
-.text-red2 {
-  color: #F44336 !important;
-}
-
-.text-red2.button svg {
-  fill: #F44336 !important;
-}
-
-.stroke.button.red2 {
-  color: #F44336 !important;
-  border-color: #F44336 !important;
-}
-
-.stroke.button.red2 svg {
-  fill: #F44336 !important;
-}
-
 .red {
-  background: #D50000 !important;
+  background: #CC2127 !important;
   color: #fff !important;
 }
 
@@ -5022,45 +4996,45 @@ body {
 }
 
 .text-red {
-  color: #D50000 !important;
+  color: #CC2127 !important;
 }
 
 .text-red.button svg {
-  fill: #D50000 !important;
+  fill: #CC2127 !important;
 }
 
 .stroke.button.red {
-  color: #D50000 !important;
-  border-color: #D50000 !important;
+  color: #CC2127 !important;
+  border-color: #CC2127 !important;
 }
 
 .stroke.button.red svg {
-  fill: #D50000 !important;
+  fill: #CC2127 !important;
 }
 
-.red3 {
+.red2 {
   background: #B71C1C !important;
   color: #fff !important;
 }
 
-.red3 svg {
+.red2 svg {
   fill: #fff !important;
 }
 
-.text-red3 {
+.text-red2 {
   color: #B71C1C !important;
 }
 
-.text-red3.button svg {
+.text-red2.button svg {
   fill: #B71C1C !important;
 }
 
-.stroke.button.red3 {
+.stroke.button.red2 {
   color: #B71C1C !important;
   border-color: #B71C1C !important;
 }
 
-.stroke.button.red3 svg {
+.stroke.button.red2 svg {
   fill: #B71C1C !important;
 }
 
@@ -9476,3 +9450,5 @@ form input[type="email"].input-96 {
   clear: both;
   display: table;
 }
+
+
