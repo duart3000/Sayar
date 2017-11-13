@@ -1904,22 +1904,22 @@ $(document).ready(function() { "use strict";
   
    
   //CONTACT FORM
-  // $('#contact-form, [data-ajax-form]').each(function(index, element) {
-  //   $(element).ajaxForm(function() { 
-  //     var $ajaxForm = $(element),
-  //         $ajaxFormButton = $(element).find('[type="submit"]'),
-  //         successText = $ajaxFormButton.data('success-text') ? $ajaxFormButton.data('success-text') : "Done!",
-  //         successClass = $ajaxFormButton.data('success-class') ? $ajaxFormButton.data('success-class') : "green",
-  //         defaultText = $ajaxFormButton.val();
+  $('#contact-form, [data-ajax-form]').each(function(index, element) {
+    $(element).ajaxForm(function() { 
+      var $ajaxForm = $(element),
+          $ajaxFormButton = $(element).find('[type="submit"]'),
+          successText = $ajaxFormButton.data('success-text') ? $ajaxFormButton.data('success-text') : "Done!",
+          successClass = $ajaxFormButton.data('success-class') ? $ajaxFormButton.data('success-class') : "green",
+          defaultText = $ajaxFormButton.val();
           
-  //     $ajaxFormButton.attr('value',successText).addClass(successClass);
+      $ajaxFormButton.attr('value',successText).addClass(successClass);
       
-  //     setTimeout(function(){
-  //       $ajaxFormButton.attr('value',defaultText).removeClass(successClass);
-  //       $ajaxForm[0].reset();
-  //     },4000);
-  //   });
-  // });
+      setTimeout(function(){
+        $ajaxFormButton.attr('value',defaultText).removeClass(successClass);
+        $ajaxForm[0].reset();
+      },4000);
+    });
+  });
 
 
 
