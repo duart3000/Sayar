@@ -1,1 +1,0 @@
-<?php include "sitecake/${version}/server/admin.php";
